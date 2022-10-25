@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Rumid98/lab07-stat_ru/issues"
   },
-  "homepage": "https://github.com/Rumid98/lab07-stat_ru#readme"
+  "homepage": "https://github.com/Rumid98/lab07-stat_ru#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
 }

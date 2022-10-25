@@ -19,26 +19,28 @@ if (numbers.some((n) => isNaN(n))) {
 switch (command) {
     case "sum":
         result = lib.sum(numbers)
+        console.log(result)
         break
     case "avg":
         result = lib.avg(numbers)
+        console.log(result)
         break
     case "max":
         result = lib.max(numbers)
+        console.log(result)
         break
     case "med":
         result = lib.med(numbers)
+        console.log(result)
         break
     case "iqr":
         result = lib.iqr(numbers)
+        console.log(result)
         break
     case "outlier":
-        result = lib.outlier(numbers)
+        lib.outlier(numbers)
         break
     default:
         console.log("Wrong command!")
         process.exit(1)
 }
-
-console.log(result)
-
