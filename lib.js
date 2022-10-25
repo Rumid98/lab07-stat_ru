@@ -22,7 +22,6 @@ function med(numbers) {
     const len = numbers.length
     let answer
     numbers.sort()
-    console.log(numbers)
     if (len % 2 == 1) {  // 숫자 개수가 홀수
         answer = numbers[parseInt(len/2)]
         return answer
